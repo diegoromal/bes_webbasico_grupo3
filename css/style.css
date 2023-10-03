@@ -37,7 +37,8 @@ body {
 }
 
 .btn-header {
-    border: 3px solid #234966;
+    border-top: 3px solid #234966;
+    border-bottom: 3px solid #234966;
     border-radius: 5px;
     color: #fff;
     text-decoration: none;
@@ -54,10 +55,19 @@ body {
 
 #main {
     grid-area: main;
+    width: 100%;
+}
+#section-01 {
+    margin-top: 68px;
+}
+#section-01,
+#section-02,
+#section-03 {
     text-align: center;
+    border: 3px solid #0f642f;
     background-color: rgb(26, 26, 136);
     color: #fff;
-    padding: 100px 20px;
+    padding: 250px;
 }
 
 #footer {
