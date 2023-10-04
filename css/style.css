@@ -11,24 +11,41 @@ body {
 }
 header {
     background-color: #f26c4b;
-    text-align: center;
     padding-left: 85px;
     padding-right: 85px;
     padding-top: 25px;
     padding-bottom: 25px;
 }
 
-.logo,
-header nav {
+.header-logo,
+.header-nav {
     display: inline-block;
+    margin: 0px 40px;
+    margin-bottom: 10px;
 }
 
-.logo {
-    width: calc(40% - 5px);
+.header-logo {
+    width: calc(60% - 80px);
 }
 
-header nav {
-    width: calc(60% - 5px);
+.header-nav {
+    width: calc(40% - 100px);
+}
+
+.btn-header {
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.btn-header:hover {
+    border: 1px solid #3d3d3d;
+    border-radius: 5px;
 }
 
 .btn {
