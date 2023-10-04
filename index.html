@@ -3,40 +3,85 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Grupo 3</title>
+        <title>Grupo 03</title>
         <link rel="stylesheet" href="css/style.css" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap"
+            rel="stylesheet"
+        />
     </head>
     <body>
-        <div class="container">
-            <header id="header">
+        <header>
+            <a class="logo" href="index.html">
+                <img src="img/logo.png" alt="logo.png" />
+            </a>
+            <nav>
+                <a href="#inicio">Início</a>
+                <a href="#formulario">Formulário</a>
+                <a href="#relatorio">Relatório</a>
+            </nav>
+        </header>
+        <main>
+            <section id="inicio">
+                <div>
+                    <h1>Central de Suporte: Conte-nos como podemos ajudar!</h1>
+                    <p>
+                        Bem-vindo à nossa Central de Suporte, o seu ponto de
+                        partida para obter a ajuda que você precisa. Estamos
+                        aqui para ouvir suas preocupações, resolver problemas e
+                        garantir que sua experiência conosco seja a melhor
+                        possível. Por favor, compartilhe os detalhes da sua
+                        solicitação de suporte abaixo, e nossa equipe dedicada
+                        entrará em ação para atendê-lo prontamente. Agradecemos
+                        por escolher nossa empresa e por nos permitir servi-lo
+                        melhor.
+                    </p>
+                    <a class="btn" href="#formulario"
+                        >Registre sua solicitação</a
+                    >
+                </div>
+                <img
+                    src="img/inicio.png"
+                    alt="inicio.png"
+                    width="580"
+                    height="580"
+                />
+            </section>
+            <section id="formulario">
+                <h2>Aqui vai o formulário de contato</h2>
+            </section>
+            <section id="relatorio">
+                <h2>Aqui vai a tabela com o relatório</h2>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <img src="img/logo.png" alt="logo.png" />
+                <p>Soluções Sob Medida, Suporte Sempre à Mão!</p>
+            </div>
+            <div>
+                <strong>Links úteis</strong>
                 <nav>
-                    <ul>
-                        <li>
-                            <a href="#section-01" class="btn-header"
-                                >Sessão 1</a
-                            >
-                        </li>
-                        <li>
-                            <a href="#section-02" class="btn-header"
-                                >Sessão 2</a
-                            >
-                        </li>
-                        <li>
-                            <a href="#section-03" class="btn-header"
-                                >Sessão 3</a
-                            >
-                        </li>
-                    </ul>
+                    <a href="#inicio">Início</a>
+                    <a href="#formulario">Formulário</a>
+                    <a href="#relatorio">Relatório</a>
                 </nav>
-            </header>
-            <main id="main">
-                <div id="section-01">section-01</div>
-                <div id="section-02">section-02</div>
-                <div id="section-03">section-03</div>
-            </main>
-            <footer id="footer">
-                <h2>Footer</h2>
-            </footer>
-        </div>
+            </div>
+            <div>
+                <strong>Desenvolvido por:</strong>
+                <p>
+                    <a href="https://github.com/diegoromal" target="_blank"
+                        >Diego Romanio de Almeida</a
+                    >
+                </p>
+                <p><a href="https://github.com/" target="_blank">Emanoel</a></p>
+                <p><a href="https://github.com/" target="_blank">Gustavo</a></p>
+                <p><a href="https://github.com/" target="_blank">Manoel</a></p>
+                <p><a href="https://github.com/" target="_blank">Wenzel</a></p>
+            </div>
+        </footer>
+        <div>&copy; Todos os direitos reservados</div>
     </body>
 </html>
