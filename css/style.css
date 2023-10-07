@@ -13,18 +13,43 @@ body {
 header {
     color: #005c4b;
     background-color: #e3fed3;
-    padding: 50px;
+    width: 100%;
+}
+
+.logo-header,
+.menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-header {
+    padding: 15px;
+    margin-left: 100px;
+    width: calc(50% - 115px);
+}
+
+.menu {
+    padding: 15px;
+    text-align: end;
+    margin-right: 100px;
+    width: calc(50% - 115px);
 }
 
 .header-btn {
-    display: inline;
-    padding: 25px 25px;
+    display: inline-block;
+    list-style-type: none;
+    padding: 15px;
     border: none;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
     transition: 0.5ms;
+}
+
+.header-btn a {
+    text-decoration: none;
+    color: #005c4b;
 }
 
 .header-btn:hover {
@@ -36,9 +61,74 @@ main {
     padding: 300px;
 }
 footer {
-    padding: 25px 25px;
     color: #005c4b;
     background-color: #e3fed3;
+    width: 100%;
+}
+
+.logo-footer,
+.menu-footer,
+.credit-footer {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.logo-footer {
+    padding: 15px;
+    margin-left: 100px;
+    width: calc(25% - 115px);
+}
+.menu-footer {
+    padding: 15px;
+    text-align: center;
+    margin-right: 100px;
+    width: calc(50% - 115px);
+}
+.credit-footer {
+    padding: 15px;
+    text-align: end;
+    margin-right: 100px;
+    width: calc(25% - 115px);
+    font-weight: bold;
+}
+
+.credit-footer ul {
+    list-style-type: none;
+    padding: 20px;
+}
+
+.credit-footer a {
+    text-decoration: none;
+    color: #005c4b;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.credit-footer a:hover {
+    border-bottom: 1px solid #005c4b;
+    border-radius: 5px;
+}
+
+.footer-btn {
+    list-style-type: none;
+    padding: 15px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.5ms;
+}
+
+.footer-btn a {
+    text-decoration: none;
+    color: #005c4b;
+}
+
+.footer-btn:hover {
+    border: 1px solid #005c4b;
+    border-radius: 5px;
 }
 
 .copy {
