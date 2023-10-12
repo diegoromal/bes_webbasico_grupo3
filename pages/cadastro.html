@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
+    <title>Cadastro</title>
     <link rel="stylesheet" href="../css/style.css" />
     <link rel="stylesheet" href="../css/login.css" />
+    <link rel="stylesheet" href="../css/cadastro.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -35,13 +36,15 @@
       </header>
       <main>
         <form action="./formulario.html" method="post">
-          <h1>Login</h1>
+          <h1>Cadastro</h1>
           <div class="inputs">
-            <input type="text" id="username" name="username" placeholder="Insira seu usuário" required />
-            <input type="password" name="password" id="password" placeholder="Insira sua senha" required />
+            <input type="text" name="nome" id="nome" placeholder="Nome completo" required>
+            <input type="email" name="email" id="email" placeholder="E-mail" required>
+            <input type="text" id="username" name="username" placeholder="Crie um usuário" required />
+            <input type="password" name="password" id="password" placeholder="Senha" required />
+            <input type="password" name="password-confirm" id="password-confirm" placeholder="Confirme sua senha" required />
           </div>
-          <p>Não possui conta? <a href="./cadastro.html">Cadastre-se</a></p>
-          <input type="submit" value="Realizar login" />
+          <input type="submit" value="Cadastrar" />
         </form>
       </main>
       <footer>

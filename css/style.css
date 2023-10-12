@@ -8,6 +8,7 @@
 body {
     color: #fff;
     background-color: #4d4d4d;
+    width: 100vw;
 }
 
 header {
@@ -135,4 +136,66 @@ footer {
     padding: 15px;
     background-color: #4d4d4d;
     text-align: center;
+}
+
+@media (max-width: 1017px) {
+ul, .credit-footer, footer {
+    display: flex;
+}
+
+footer {
+    flex-direction: row;
+    justify-content: space-between;
+}
+.credit-footer ul, .credit-footer {
+    flex-direction: column;
+    padding-right: 0;
+}
+
+
+}
+
+@media (max-width: 767px) {
+    .logo-header, .logo-footer
+    ,.menu, .menu-footer  {
+        margin: 0;
+    }
+
+}
+
+@media (max-width: 711px)  {
+    footer, header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .logo-header, .logo-footer {
+        margin-left: calc(50vw - 90px);
+    }
+
+    .menu, .menu-footer {
+        width: 90vw;
+        padding: 0;
+        margin: auto;
+    }
+
+    .credit-footer {
+        width: 80vw;
+        margin: 0;
+        padding: 0;
+    }
+    .credit-footer p {
+        width: 80%;
+        margin-left: calc(50% - 90px);
+    }
+
+    .credit-footer li, .credit-footer p {
+        text-align: center;
+    }
+
+    .credit-footer ul {
+        padding: 0;
+        margin: auto;
+    }
 }
