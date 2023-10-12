@@ -162,3 +162,40 @@ footer {
     }
 
 }
+
+@media (max-width: 711px)  {
+    footer, header {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .logo-header, .logo-footer {
+        margin-left: calc(50vw - 90px);
+    }
+
+    .menu, .menu-footer {
+        width: 90vw;
+        padding: 0;
+        margin: auto;
+    }
+
+    .credit-footer {
+        width: 80vw;
+        margin: 0;
+        padding: 0;
+    }
+    .credit-footer p {
+        width: 80%;
+        margin-left: calc(50% - 90px);
+    }
+
+    .credit-footer li, .credit-footer p {
+        text-align: center;
+    }
+
+    .credit-footer ul {
+        padding: 0;
+        margin: auto;
+    }
+}
