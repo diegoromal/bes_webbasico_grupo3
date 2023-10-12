@@ -15,6 +15,7 @@ main {
 }
 form {
   width: 80%;
+  height: 90%;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -66,6 +67,20 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-@media (max-width: 1017px) {
+@media (max-width: 1030px) {
+    main{
+      width: 50%;
+    }
+    form {
+      width: 90%;
+    }
+}
 
+@media (max-width: 500px) {
+  main {
+    width: 70%;
+  }
+  form {
+    width: 95%;
+  }
 }
