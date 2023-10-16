@@ -58,9 +58,24 @@ header {
     border-radius: 5px;
 }
 
-main {
-    padding: 300px;
+main .main-text,
+main img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
 }
+
+main .main-text {
+    padding: 15px;
+    text-align: center;
+    width: calc(50% - 60px);
+}
+
+main img {
+    padding: 15px;
+    width: calc(50% - 60px);
+}
+
 footer {
     color: #005c4b;
     background-color: #e3fed3;
@@ -139,42 +154,47 @@ footer {
 }
 
 @media (max-width: 1017px) {
-ul, .credit-footer, footer {
-    display: flex;
-}
+    ul,
+    .credit-footer,
+    footer {
+        display: flex;
+    }
 
-footer {
-    flex-direction: row;
-    justify-content: space-between;
-}
-.credit-footer ul, .credit-footer {
-    flex-direction: column;
-    padding-right: 0;
-}
-
-
+    footer {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .credit-footer ul,
+    .credit-footer {
+        flex-direction: column;
+        padding-right: 0;
+    }
 }
 
 @media (max-width: 767px) {
-    .logo-header, .logo-footer
-    ,.menu, .menu-footer  {
+    .logo-header,
+    .logo-footer,
+    .menu,
+    .menu-footer {
         margin: 0;
     }
-
 }
 
-@media (max-width: 711px)  {
-    footer, header {
+@media (max-width: 711px) {
+    footer,
+    header {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         justify-content: space-between;
     }
-    .logo-header, .logo-footer {
+    .logo-header,
+    .logo-footer {
         margin-left: calc(50vw - 90px);
     }
 
-    .menu, .menu-footer {
+    .menu,
+    .menu-footer {
         width: 90vw;
         padding: 0;
         margin: auto;
@@ -190,7 +210,8 @@ footer {
         margin-left: calc(50% - 90px);
     }
 
-    .credit-footer li, .credit-footer p {
+    .credit-footer li,
+    .credit-footer p {
         text-align: center;
     }
 
