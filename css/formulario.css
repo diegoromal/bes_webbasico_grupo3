@@ -6,7 +6,7 @@ body {
 main {
   background-color: #968f8f;
   width: 30%;
-  height: 46vh;
+  height: auto;
   display: flex;
   justify-content: space-around;
   margin: 15px auto;
@@ -27,7 +27,7 @@ p {
   width: 90%;
 }
 
-input {
+input, textarea, select {
   width: 100%;
   flex-grow: 1;
   flex-basis: 800px;
@@ -56,7 +56,22 @@ input[type="submit"]:hover {
   background-color: #716d6d;
 }
 
+input[type="reset"]:hover {
+  background-color: #716d6d;
+}
+
 input[type="submit"] {
+  padding: 10px;
+  color: #fff;
+  background-color: #968f8f;
+
+  border-radius: 20px;
+  box-shadow: 2px 2px 3px rgba(00, 0, 00, 0.6);
+
+  cursor: pointer;
+}
+
+input[type="reset"] {
   padding: 10px;
   color: #fff;
   background-color: #968f8f;

@@ -1,9 +1,0 @@
-main {
-    height: 450px;
-}
-
-@media (max-width: 500px) {
-    main {
-    width: 90%;
-}
-}
