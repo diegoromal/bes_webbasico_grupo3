@@ -4,8 +4,8 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
-        <link rel="stylesheet" href="css/style.css" />
-        <link rel="stylesheet" href="css/formulario.css" />
+        <link rel="stylesheet" href="../css/style.css" />
+        <link rel="stylesheet" href="../css/formulario.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
@@ -53,9 +53,9 @@
                         <input type="text" name="cpf" id="cpf" placeholder="Informe seu CPF" required/>
                         <input type="text" name="telefone" id="telefone"  placeholder="Digite seu Telefone">
                         <textarea name="textoarea" cols="50" rows="10" placeholder="Informe sua solicitação detalhadamente"></textarea>
-                        <input type="radio" name="unico" value="software"> Software <br> 
-                        <input type="radio" name="unico" value="hardware"> Hardware <br> 
-                        <input type="submit" value="Enviar"> &nbsp; | &nbsp; <input type="reset" value="Limpar">                 
+                        <label for="software">Software</label> <input type="radio" name="unico" value="software" id="software">
+                        <label for="hardware">Hardware</label> <input type="radio" name="unico" value="hardware" id="hardware"> 
+                        <input type="submit" value="Enviar"> <input type="reset" value="Limpar">                 
                     </div>
                 </form>
             </main>
