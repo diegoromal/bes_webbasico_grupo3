@@ -52,9 +52,12 @@
                         <input type="text" name="endereco" id="endereco" placeholder="Insira seu endereço" required/>
                         <input type="text" name="cpf" id="cpf" placeholder="Informe seu CPF" required/>
                         <input type="text" name="telefone" id="telefone"  placeholder="Digite seu Telefone">
-                        <textarea name="textoarea" cols="50" rows="10" placeholder="Informe sua solicitação detalhadamente"></textarea>
-                        <label for="software">Software</label> <input type="radio" name="unico" value="software" id="software">
-                        <label for="hardware">Hardware</label> <input type="radio" name="unico" value="hardware" id="hardware"> 
+                        <select name="selecionar">
+    				<option value="selecionar">Selecionar</option>
+  				<option value="software">Software</option>
+    				<option value="hardware">Hardware</option>
+			</select>
+			<textarea name="textoarea" cols="50" rows="10" placeholder="Informe sua solicitação detalhadamente"></textarea>
                         <input type="submit" value="Enviar"> <input type="reset" value="Limpar">                 
                     </div>
                 </form>

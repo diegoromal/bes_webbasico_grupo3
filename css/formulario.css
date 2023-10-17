@@ -27,7 +27,7 @@ p {
   width: 90%;
 }
 
-input, textarea {
+input, textarea, select {
   width: 100%;
   flex-grow: 1;
   flex-basis: 800px;
